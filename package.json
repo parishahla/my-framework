@@ -1,0 +1,22 @@
+{
+  "name": "par-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && nodemon ./dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
